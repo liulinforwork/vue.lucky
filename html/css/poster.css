@@ -1,0 +1,27 @@
+/*@author blue @create date 2017-02-27 @info poster.css*/
+
+body {
+  margin: 0;
+}
+.poster {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 0;
+  position: relative;
+}
+.poster img {
+  width: 100%;
+}
+.poster_btn {
+  width: 25%;
+  padding: 4% 5%;
+  background-color: #da470b;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  margin-left: -17.5%;
+  bottom: 4%;
+  border-radius: 5px;
+}

@@ -1,0 +1,55 @@
+.readInfo {
+  padding: 1rem;
+  text-align: center; }
+  .readInfo .readInfo_title {
+    text-align: left;
+    width: 100%;
+    margin: 1.875rem 0;
+    font-size: 1.4rem;
+    color: #000;
+    border-bottom: 1px solid black; }
+
+.readHr {
+  width: 90%;
+  margin: 0 auto;
+  color: #dcdcdc; }
+
+/*#container*/
+#container {
+  width: 100%; }
+
+.readTitle {
+  width: 90%; }
+
+.readTitle h4 {
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 30px;
+  padding: 0; }
+
+h4.readTitle_h4 {
+  margin-top: 1.25rem; }
+
+.readTitle img {
+  margin: 0.938rem 0 0 0;
+  width: 100%; }
+
+img.readTitle_img_ext {
+  margin-bottom: 40px; }
+
+.readingSpan {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold; }
+
+/*loadingImg*/
+#loadingImg {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  margin-left: -1.5625rem;
+  z-index: 9999; }
+
+/*# sourceMappingURL=readInfo.css.map */

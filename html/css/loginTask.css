@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/***@author blue @create date 2017-2-08 @info loginTask.css***/
+
+/***@author blue @create date 2017-2-13 @info html***/
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+@media only screen and (min-width:400px) {
+    html {
+        font-size: 10.665px!important
+    }
+}
+@media only screen and (min-width:414px) {
+    html {
+        font-size: 11.04px!important
+    }
+}
+@media only screen and (min-width:480px) {
+    html {
+        font-size: 12.8px!important
+    }
+}
+@media only screen and (min-device-width:412px) and (-webkit-min-device-pixel-ratio: 3) {
+    div.o_content{
+        bottom: 8%;
+    }
+}
+
+/***@author blue @create date 2017-2-13 @info page***/
+.page, .page-group {
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.o_box{
+    background: url("../images/inviteTask/it-bg.png") center;
+    background-size: 100% 100%;
+    width: 100%;
+    text-align: center;
+}
+
+/***@author blue @create date 2017-2-15 @info page***/
+.o_content{
+    background: url("../images/inviteTask/it-in.png") center;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+    margin-left: -45%;
+    bottom: 3%;
+}
+.o_title{
+    width: 100%;
+    text-align: center;
+    margin: .3rem 0;
+}
+.o_title img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    border: .4rem solid #fcd407;
+    outline: none;
+}
+
+.o_info{
+    font-size: 1.4rem;
+    color: #ed413f;
+    padding: 0 2rem;
+    line-height: 1.4rem;
+}
+.o_info span{
+    color: #352552;
+}
+
+.o_commit{
+    width: 80%;
+    margin: 0 auto;
+}
+.o_idCodeWrap,.o_phoneWrap{
+    width: 100%;
+    font-size: 0;
+    display: inline-block;
+    -webkit-text-size-adjust:none;
+}
+.o_input{
+    display: inline-block;
+    width: 90%;
+    height: 2rem;
+    border-radius: .5rem;
+    border: none;
+    outline:none;
+    font-size: 1.6rem;
+    color: #b4b4b4;
+    padding: 3% 5%;
+    margin: 1rem 0;
+}
+.o_input2{
+    width: 65%;
+    border-radius: .5rem 0 0 .5rem;
+    margin: 0;
+    padding-right: 0;
+    float: left;
+    padding-left: 5%;
+}
+.o_idCode{
+    display: inline-block;
+    padding: 3%;
+    width: 24%;
+    background-color: #F2F2F2;
+    height: 2rem;
+    color: #46A9F4;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
+    border-radius: 0 .5rem .5rem 0;
+    margin: 0 auto;
+    float: left;
+}
+.o_p1{
+    width: 79%;
+    margin: 0.5rem auto;
+    text-align: left;
+    color: #969696;
+    font-weight: bold;
+}
+.disabled{
+    color:#c8c9cb;
+}
+*{
+    box-sizing:content-box;
+}
+.o_link1{
+    display: inline-block;
+    text-decoration: none;
+    width: 60%;
+    margin: 2rem auto;
+    height: 4rem;
+    line-height: 4rem;
+    border: none;
+    background: #fa363c;
+    color: #fff;
+    -webkit-box-shadow:0 0 10px #969696;
+    -moz-box-shadow:0 0 10px #969696;
+    box-shadow:0 0 10px #969696;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+}
+.o_link1_act{
+    color: white;
+    background-color: #969696;
+}
+
+/***@author blue @create date 2017-2-13 @info modal***/
+.modal{
+    width: 17.5rem;
+    margin-left: -8.75rem;
+}

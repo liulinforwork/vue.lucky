@@ -1,0 +1,145 @@
+//@import "base/min";
+
+hr{
+  border:none;
+  border-bottom:1px solid #DaDaDa;
+  height:1px;
+  -webkit-transform: scaleY(0.5);
+  -webkit-transform-origin:0 0;
+}
+.rk{
+  background: #f2f2f2;
+}
+.rk_move{
+  background: white;
+}
+div.mint-navbar{
+  width: 75%;
+  padding: 0 12.5%;
+  background-color: #ff9c32;
+}
+div.mint-tab-item-label{
+  font-size:18px;
+  width: 100px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #ffd4ae;
+}
+.mint-navbar .mint-tab-item.is-selected .mint-tab-item-label{
+  color: white;
+}
+.mint-navbar a.mint-tab-item.is-selected{
+  border-bottom: 2px solid #fff;
+  margin-bottom: -2px
+}
+.rk_time{
+  background-color:#ff9c32;
+  padding:2rem 0;
+  padding-bottom:6rem;
+  margin: 0;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.rk_wp{
+  background-color: white;
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  top: -1rem;
+  border-radius: 8px;
+  .rk_own{
+    .rk_own_pic{
+      display: block;
+      width: 5rem;
+      height: 5rem;
+      border-radius: 100%;
+      margin: 0 auto;
+      position: relative;
+      top: -2.5rem;
+      z-index: 10000;
+      border: 2px solid white;
+    }
+    .rk_own_txt{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: -1.5rem;
+      padding: 1rem 0;
+    }
+    .rank_info{
+      border-radius: 10px;
+      padding: 5% 0;
+      span{
+        display: inline-block;
+        width: 48%;
+        text-align: center;
+        font-size: 16px;
+        .rank_person_myRank,.rank_person_amount{
+          font-size: 28px;
+          //font-weight: 500;
+          display: inline-block;
+          margin-bottom: .7rem;
+        }
+      }
+    }
+  }
+
+}
+.rk_list{
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  padding: 1rem;
+  background-color: white;
+  li{
+    margin: 1rem 0;
+  }
+  .rk_rank{
+    display: inline-block;
+    width: 10%;
+    color: #969696;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle;
+    font-weight: 500;
+    color: #000;
+  }
+  .rk_headImg{
+    display: inline-block;
+    width: 20%;
+    margin: 0 4%;
+    margin-left: 2%;
+    vertical-align: middle;
+    img{
+      border-radius: 100%;
+      background-color: #ff9c32;
+    }
+  }
+  .rk_nickName{
+    width: 40%;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+  }
+  .rk_amount{
+    display: inline-block;
+    width: 17%;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    text-align: center;
+  }
+}

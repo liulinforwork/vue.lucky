@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.rm_wp{
+    padding-top: 5%;
+    text-align: center;
+    .rm_cnt{
+        width:12rem;
+        height:12rem;
+        margin:1rem auto;
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+    .rm_sub{
+        width: 14rem;
+        //height: 4rem;
+        margin: 1rem auto;
+        margin-top: 0;
+        text-align: center;
+        color: #969696;
+        background: #fff;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .rm_lk{
+        font-size: 14px;
+        color: #0894ec;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+}
+
+
+
+
+

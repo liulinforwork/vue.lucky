@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/***@author blue @create date 2017-2-08 @info loginTaskIn.css***/
+
+/***@author blue @create date 2017-2-13 @info***/
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+@media only screen and (min-width:400px) {
+    html {
+        font-size: 10.665px!important
+    }
+}
+@media only screen and (min-width:414px) {
+    html {
+        font-size: 11.04px!important
+    }
+}
+@media only screen and (min-width:480px) {
+    html {
+        font-size: 12.8px!important
+    }
+}
+
+/***@author blue @create date 2017-2-13 @page***/
+@media only screen and (min-device-width:412px) and (-webkit-min-device-pixel-ratio: 3) {
+    div.o_content{
+        bottom: 8%;
+    }
+}
+.page, .page-group {
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.p_box{
+    background: url("./../images/inviteTask/it-bg.png") center;
+    background-size: 100% 100%;
+    width: 100%;
+    text-align: center;
+}
+.p_content{
+    background: url("./../images/inviteTask/it-come.png") center;
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+    margin-left: -45%;
+    bottom: 5%;
+}
+.p_title{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -3rem;
+    background-color: #ffeec2;
+    color: #ed413f;
+    padding: 2%;
+    font-size: 1.6rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+.p_title p{
+    margin: 0;
+    padding: 0 10%;
+}
+.p_title h3{
+    margin: 0;
+}
+.p_title h3 span{
+    font-size: 2.7rem;
+}
+.p_foot{
+    padding: 2%;
+    color: #352552;
+}
+.p_text1{
+    font-size: 1.6rem;
+    margin: .5rem auto;
+}
+.p_text1 span{
+    color: #ed413f;
+}
+.p_text2{
+    font-size: 1.6rem;
+    margin: 0;
+}
+.p_text3{
+    font-size: 2.7rem;
+    color: #e8092c;
+    margin: 0;
+}
+.p_text4{
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 2% auto;
+    width: 80%;
+}
+.p_btn1 a{
+    display: inline-block;
+    text-decoration: none;
+    width: 80%;
+    margin: 0 auto;
+    height: 4rem;
+    line-height: 4rem;
+    border: none;
+    color: white;
+    background-color: #fa363c;
+    -webkit-box-shadow: 0 0 10px #969696;
+    -moz-box-shadow: 0 0 10px #969696;
+    box-shadow: 0 0 10px #969696;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+.p_text5{
+    width: 80%;
+    color: #fa363c;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+}
+div.modal{
+    width: 17.5rem;
+    margin-left: -8.75rem;
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/***@author blue @create date 2017-2-09 @info invDts.scss***/
+
+//@import "base/min";
+
+/***@author blue @create date 2017-2-09 @info itd_wp***/
+.itd_wp{
+    display: none;
+}
+.itd_now,.itd_past{
+    width: 100%;
+    font-size: 0;
+    background-color: white;
+}
+.itd_now_tl,.itd_past_tl{
+    padding: 2.5% 5%;
+    font-size: 0.7rem;
+    display: inline-block;
+    background-color: #F2F2F2;
+    width: 90%;
+    margin: 0;
+    color: #969696;
+}
+.itd_now_wp,.itd_past_wp{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/***@author blue @create date 2017-2-10 @info 动态数据***/
+.m_inviteDetails_com{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: .6rem;
+    font-family: '微软雅黑';
+    font-weight: lighter;
+    padding: 3% 0;
+}
+.m_inviteDetails_nth1{
+    border: 0;
+}
+.m_inviteDetails_com div{
+    margin: 2% 0;
+}
+.m_inviteDetails_h3{
+    margin: 0;
+    display: inline-block;
+}
+.m_inviteDetails_h3right{
+    float: right;
+}
+.m_inviteDetails_text{
+    color: #989898;
+}
+.m_inviteDetails_num1{
+    color: #1a1a1a;
+    font-size: .8rem;
+    display: inline-block;
+    max-width: 200px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.m_inviteDetails_num2{
+    font-size: .8rem;
+    font-weight: lighter;
+}
+.m_inviteDetails_num3{
+    font-weight: lighter;
+}
+.m_inviteDetails_num4{
+    font-weight: lighter;
+}
+
+.m_inviteDetails_bule{
+    color: #42a7f4;
+}
+.m_inviteDetails_red{
+    color: #E13838;
+}
+.m_inviteDetails_bl{
+    color: #000;
+}
+
+/***@author blue @create date 2017-2-09 @info 没有数据显示***/
+.m_inviteDetails_noct{
+    padding: 25% 0;
+    height: 20%;
+    margin: 0;
+    text-align: center;
+}
+.m_inviteDetails_noct img{
+    width: 80%;
+    padding: 10%;
+}
+.m_inviteDetails_noct h1{
+    font-size: 1rem;
+    text-align: center;
+    color: #999999;
+}

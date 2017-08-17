@@ -1,0 +1,66 @@
+
+/***@author blue @create date 2017-2-10 @info mutation.js***/
+
+/*
+ * 首页
+ * */
+export const INDEX_GET_SHOWTASK_SUCCESS = 'INDEX_GET_SHOWTASK_SUCCESS';
+export const INDEX_GET_TIME_SUCCESS = 'INDEX_GET_TIME_SUCCESS';
+export const INDEX_DSQ_SUCCESS = 'INDEX_DSQ_SUCCESS';
+export const INDEX_BANNERDATA_SUCCESS = 'INDEX_BANNERDATA_SUCCESS';
+export const INDEX_BANNERSTATE_SUCCESS = 'INDEX_BANNERSTATE_SUCCESS';
+
+/*
+ * 公共
+ * */
+export const COMM_LOADING_STATUS = 'COMM_LOADING_STATUS';
+export const COMM_CONF = 'COMM_CONF';
+export const COMM_MARK_STATUS = 'COMM_MARK_STATUS';
+export const COMM_POPUP_STATUS = 'COMM_POPUP_STATUS';
+export const COMM_CLSPOPUP_STATUS = 'COMM_CLSPOPUP_STATUS';
+
+/*
+ * 收益排行榜
+ * */
+export const RANK_PEOPLE = 'RANK_PEOPLE';
+export const RANK_GROUP = 'RANK_GROUP';
+
+/*
+ * 速闻阅读
+ * */
+export const READ_GET_INFO_SUCCESS = 'READ_GET_INFO_SUCCESS';
+export const READ_GET_OPENINFO_SUCCESS = 'READ_GET_OPENINFO_SUCCESS';
+export const READ_GET_OPEN_SUCCESS = 'READ_GET_OPEN_SUCCESS';
+export const READ_DSQ_SUCCESS = 'READ_DSQ_SUCCESS';
+
+/*
+ * 邀新活动
+ * */
+export const INVITE_POST_BASICINFO_SUCCESS = 'INVITE_POST_BASICINFO_SUCCESS';
+export const INVITE_POST_INFO_SUCCESS = 'INVITE_POST_INFO_SUCCESS';
+export const INVITE_POST_TIME_SUCCESS = 'INVITE_POST_TIME_SUCCESS';
+export const INVITE_POST_OPEN_SUCCESS = 'INVITE_POST_OPEN_SUCCESS';
+export const INVITE_DSQ_SUCCESS = 'INVITE_DSQ_SUCCESS';
+
+/*
+ * 搭伙线活动
+ * */
+export const FIRE_POST_INFO_SUCCESS = 'FIRE_POST_INFO_SUCCESS';
+
+/*
+ * 邀请任务
+ * */
+export const INVTK_POST_SUCCESS = 'INVTK_POST_SUCCESS';
+export const INVTK_POST_DTS_SUCCESS = 'INVTK_POST_DTS_SUCCESS';
+
+/*
+ * 马币赎回
+ * */
+export const REDEEM_POST_MD5_SUCCESS = 'REDEEM_POST_MD5_SUCCESS';
+export const REDEEM_POST_DTS_SUCCESS = 'REDEEM_POST_DTS_SUCCESS';
+
+// /*
+//  * 注册
+//  * */
+// export const REG_POST_INVITEUSER_SUCCESS = 'FIRE_POST_INFO_SUCCESS';
+// export const REG_GET_MODE_SUCCESS = 'REG_GET_MODE_SUCCESS';/*判断是语音验证机制或者是普通验证机制*/

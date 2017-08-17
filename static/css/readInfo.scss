@@ -1,0 +1,45 @@
+/***@author blue @create date 2017-2-09 @info readIntro.scss***/
+
+@charset "UTF-8";
+
+.rdi_wp{
+    width: 90%;
+    margin: 1rem auto;
+    .rdi_tl{
+        margin: .6rem 0;
+        font-size: 26px;
+        font-weight: 400;
+    }
+    @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-device-pixel-ratio:2) {
+        .border {
+            border: none;
+            background-image: -webkit-linear-gradient(90deg,#e0e0e0,#e0e0e0 50%,transparent 50%);
+            background-image: -moz-linear-gradient(90deg,#e0e0e0,#e0e0e0 50%,transparent 50%);
+            background-image: -o-linear-gradient(90deg,#e0e0e0,#e0e0e0 50%,transparent 50%);
+            background-image: linear-gradient(0,#e0e0e0,#e0e0e0 50%,transparent 50%);
+            background-size: 100% 1px;
+            background-repeat: no-repeat;
+            background-position: bottom
+        }
+    }
+    .rdi_txt{
+        img{
+            width: 100%;
+            margin-top: .6rem;
+        }
+        h4{
+            font-size: 16px;
+            text-align: left;
+            font-weight: lighter;
+            line-height: 30px;
+            padding: 0;
+            margin-top: 1.25rem;
+        }
+        .rdi_key{
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+        }
+    }
+
+}

@@ -1,0 +1,46 @@
+.task_wrap {
+  padding-top: 5%;
+  text-align: center; }
+  .task_wrap .task_title {
+    width: 100%;
+    height: 3rem;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    background: url(../../src/assets/task_title.png) no-repeat center center;
+    background-size: contain; }
+    .task_wrap .task_title h1 {
+      height: 3rem;
+      font-size: 1rem;
+      color: #fff; }
+  .task_wrap .task_pic {
+    width: 100%;
+    margin: 2rem 0; }
+    .task_wrap .task_pic img {
+      width: 70%; }
+  .task_wrap .task_btn {
+    width: 60%;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    font-size: 18px; }
+  .task_wrap .task_link {
+    font-size: 14px;
+    color: #0894ec;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent; }
+  .task_wrap .task_p {
+    padding: 2%;
+    margin: 4%;
+    color: #969696;
+    background: #f2f2f2;
+    border-radius: 4px; }
+    .task_wrap .task_p h3 {
+      margin: 5% 0;
+      margin-top: 3%;
+      font-size: 18px; }
+    .task_wrap .task_p p {
+      text-align: left;
+      margin: 2%;
+      font-size: 16px; }
+
+/*# sourceMappingURL=task_invite.css.map */

@@ -1,0 +1,75 @@
+<!---@author blue @create date 2017-02-10 @info loginLucky页面--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>幸运轮</title>
+
+    <link rel="stylesheet" type="text/css" href="./lib/sm/sm.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/loginLucky.css"/>
+</head>
+<body>
+    <div class="page page-current">
+        <div class="content">
+            <div class="content_head">
+                <img src="./images/invite/inv-top.png" alt="图片加载失败"/>
+            </div>
+            <div class="content_sprite">
+                <img src="./images/invite/inv-red.png" alt="图片加载失败"/>
+                <div class="invite_da">
+                    <img src="./images/invite/inv-txt.png" alt="图片加载失败"/>
+                </div>
+            </div>
+            <div class="content_invite">
+                <a name="point" style="position: absolute" class="point"></a>
+                <div class="invite_info">
+                   <div class="list-block">
+                       <ul>
+                           <li class="item-content border">
+                               <div class="item-inner">
+                                   <div class="item-input" style="width:100%;">
+                                       <input type="tel" placeholder="请输入手机号" id="phone" maxlength="11"/>
+                                   </div>
+                               </div>
+                           </li>
+                           <li class="item-content border">
+                               <div class="item-inner">
+                                   <div class="item-input" style="width:100%;">
+                                       <input type="tel" placeholder="请输入验证码" id="identifying_code" maxlength="6"/>
+                                   </div>
+                               </div>
+                               <div class="item-after">
+                                   <div class="item-title" style="width:100%;"><button style="border: none" class="send_invite disabled">获取</button></div>
+                               </div>
+                           </li>
+                           <li class="item-content">
+                               <div class="code_point vi_hidden">验证码采用语音方式发送<br>点击“获取”后请注意接听来电</div>
+                           </li>
+                           <li class="item-content border get_li">
+                               <a href="javascript:void(0)" class="get_invite">果断领取</a>
+                           </li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="rule_explain">
+                    <a href="javascript:void(0)">立即注册可获得7天被钱砸测试项目打卡资格！！！</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8" src="./lib/zepto/zepto.min.js"></script>
+    <script type="text/javascript" charset='utf-8' src="./lib/sm/sm.min.js"></script>
+	<script type="text/javascript" charset='utf-8' src="./lib/md5/aes.js"></script>
+    <script type="text/javascript" charset='utf-8' src="./lib/md5/mode.min.js"></script>
+    <script type="text/javascript" charset='utf-8' src="./lib/md5/AESEncryptUtils.js"></script>
+    <script type="text/javascript" charset='utf-8' src="./lib/md5/haxi.js"></script>
+    <script type="text/javascript" charset='utf-8' src="./lib/md5/base64.js"></script>
+    <script type='text/javascript' charset='utf-8' src='./js/common.js'></script>
+    <script type='text/javascript' charset='utf-8' src='./js/loginLucky.js'></script>
+</body>
+</html>

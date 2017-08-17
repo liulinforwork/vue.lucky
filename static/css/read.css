@@ -1,0 +1,56 @@
+.read_wrap {
+  margin-top: 5%;
+  text-align: center; }
+  .read_wrap .read_title {
+    width: 100%;
+    height: 3rem;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    background: url(../../src/assets/read_title.png) no-repeat center center;
+    background-size: contain; }
+    .read_wrap .read_title h1 {
+      height: 3rem;
+      font-size: 1rem;
+      color: #fff; }
+  .read_wrap .read_pic {
+    width: 100%;
+    margin: 1rem 0; }
+    .read_wrap .read_pic img {
+      width: 70%; }
+  .read_wrap .read_text img {
+    width: 80%;
+    width: 100%;
+    width: 14rem;
+    height: 4rem;
+    margin: 2rem auto;
+    margin-top: 0;
+    text-align: center;
+    color: #969696;
+    background: #fff; }
+  .read_wrap .read_btn {
+    width: 60%;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    font-size: 18px; }
+  .read_wrap .read_link {
+    font-size: 14px;
+    color: #0894ec;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent; }
+  .read_wrap .read_p {
+    padding: 2%;
+    margin: 4%;
+    color: #969696;
+    background: #f2f2f2;
+    border-radius: 4px; }
+    .read_wrap .read_p h3 {
+      margin: 5% 0;
+      margin-top: 3%;
+      font-size: 18px; }
+    .read_wrap .read_p p {
+      text-align: left;
+      margin: 2%;
+      font-size: 16px; }
+
+/*# sourceMappingURL=read.css.map */

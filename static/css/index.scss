@@ -1,0 +1,239 @@
+@import "base/base";
+
+
+
+div.swiper_wp{
+    height: px2rem(200);
+    overflow: hidden;
+    position: relative;
+    .swiper_img img{
+        max-height: px2rem(200);
+    }
+    //&:after{
+    //    content: "";
+    //    display: block;
+    //    position: absolute;
+    //    top: 10px;
+    //    width: 100px;
+    //    height: px2rem(40);
+    //}
+}
+.bk_F2F2F2{
+    width: 100%;
+    height: px2rem(40);
+    background-color: #F2F2F2;
+}
+div.mint-swipe-indicator{
+    width: 15px;
+    height: 5px;
+    border-radius: 2px;
+    opacity: .5;
+    color: white;
+}
+div.mint-swipe-indicators{
+    bottom: 0;
+    //height: 20px;
+}
+span.swiper-pagination-bullet-active{
+  opacity: .6;
+  background: white;
+}
+.index_banner{
+
+  img{
+    width:100%;
+    display: block;
+  }
+}
+.index_box{
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+  margin: 5%;
+  li{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    img{
+      display: block;
+      width: 100%;
+    }
+    .index_pic{
+      width: 98%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1%;
+      h3{
+        display: block;
+        width: 75%;
+        padding-left: 5%;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+      }
+      .index_picDescription{
+        font-weight: normal;
+        font-size: 14px;
+        padding-top: 0;
+      }
+      img{
+        display: inline-block;
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        bottom: 15%;
+      }
+    }
+  }
+  .index_fg1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    margin: 5% 0;
+    margin-top: 0;
+    img{
+      display: inline-block;
+      vertical-align: middle;
+      width: 5%;
+      margin-top: -0.3rem;
+    }
+  }
+}
+.index_fg2{
+  height: px2rem(60);
+  width: 100%;
+  margin-top: 5%;
+  background-color: #F2F2F3;
+}
+.al_time{
+  width: 100%;
+  text-align: center;
+  font-family: 'Microsoft YaHei';
+  font-size: 16px;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  margin: 5% 0;
+  img{
+    display: inline-block;
+    vertical-align:middle;
+    width: 5%;
+    margin-top: -0.3rem;
+  }
+  .al_time_show{
+    color: #D64C2E;
+    font-size: 16px;
+  }
+
+}
+.al_cut_lt, .al_cut_rg{
+  display: inline-block;
+  vertical-align: middle;
+  width: px2rem(80);
+  height: px2rem(30);
+  margin-top: -0.1rem;
+}
+.al_cut_lt{
+  background: url("./../../src/assets/images/al-cut.png") no-repeat center;
+}
+.al_cut_rg{
+  background: url("./../../src/assets/images/al-cut.png") no-repeat center;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.al_txt{
+    width: 90%;
+    margin: 2% auto;
+    font-size: 16px;
+    color: #e13838;
+    font-family: 'Microsoft YaHei';
+    font-weight: normal;
+}
+
+.index_container{
+  width: 90%;
+  list-style-type: none;
+  padding: 0;
+  margin: 5%;
+    margin-top: 0;
+  li{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    img{
+        display: block;
+        width: 100%;
+    }
+      img.index_wp_img{
+          min-height: 140px;
+      }
+    .index_pic{
+      width: 98%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1%;
+      h3{
+        display: block;
+        width: 75%;
+        padding-left: 5%;
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: left;
+      }
+      .index_picDescription{
+        font-weight: normal;
+        font-size: 14px;
+        padding-top: 0;
+      }
+      img{
+        display: inline-block;
+        width: 15%;
+        position: absolute;
+        right: 2%;
+        bottom: 15%;
+      }
+    }
+  }
+}
+.index_link{
+  width: 15%;
+  position: fixed;
+  z-index: 9999;
+  right: px2rem(50);
+  bottom: px2rem(40);
+  font-size: 20px;
+  img{
+    float: right;
+    width: 100%;
+  }
+}
+
+
